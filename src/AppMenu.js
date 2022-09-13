@@ -105,6 +105,7 @@ const AppSubmenu = (props) => {
     return items ? (
         <ul className={props.className} role="menu">
             {items}
+            <li>hghjdsggsgk</li>
         </ul>
     ) : null;
 };

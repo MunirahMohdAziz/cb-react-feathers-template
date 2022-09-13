@@ -8,7 +8,7 @@ export const AppTopbar = (props) => {
             <Link to="/" className="layout-topbar-logo">
                 {/* <img src={props.layoutColorMode === "light" ? "assets/layout/images/logo-dark.svg" : "assets/layout/images/logo-white.svg"} alt="logo" /> */}
                 <img src={"assets/logo/cb-logo.svg"} alt="logo" />
-                <span style={{ color: "#ea4659" }}>Code Bridge</span>
+                <span style={{ color: "#ea4659" }}>Code Bridge for Munirah</span>
             </Link>
 
             {props.showSideMenuButton ? (
@@ -19,6 +19,8 @@ export const AppTopbar = (props) => {
 
             <button type="button" className="p-link layout-topbar-menu-button layout-topbar-button" onClick={props.onMobileTopbarMenuClick}>
                 <i className="pi pi-ellipsis-v" />
+                snjbj
+                
             </button>
 
             <ul className={classNames("layout-topbar-menu lg:flex origin-top", { "layout-topbar-menu-mobile-active": props.mobileTopbarMenuActive })}>

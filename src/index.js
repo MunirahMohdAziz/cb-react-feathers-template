@@ -1,7 +1,7 @@
 import "react-app-polyfill/ie11";
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+import YDApp from "./YDApp";
 //import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from "react-router-dom";
 import ScrollToTop from "./ScrollToTop";
@@ -9,7 +9,7 @@ import "./assets/themes/lara-light-indigo/theme.css";
 ReactDOM.render(
     <BrowserRouter>
         <ScrollToTop>
-            <App></App>
+            <YDApp></YDApp>
         </ScrollToTop>
     </BrowserRouter>,
     document.getElementById("root")

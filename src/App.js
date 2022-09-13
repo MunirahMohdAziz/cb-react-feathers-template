@@ -28,6 +28,7 @@ class App extends Component {
                 <MyRouter />
                 {/* </PersistGate> */}
             </Provider>
+            
         );
     }
 }
